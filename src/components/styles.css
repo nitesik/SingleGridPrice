@@ -1,0 +1,183 @@
+@media (min-width: 738px) {
+  .container {
+    height: 70%;
+    width: 45%;
+    background-color: white;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr;
+    border-radius: 10px;
+    overflow: hidden;
+  
+  }
+  
+  .upper {
+    padding: 30px;
+  }
+  
+  .title {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: hsl(179, 62%, 43%);
+  }
+  
+  .subtitle {
+    margin-bottom: 10px;
+    color: hsl(71, 73%, 54%);
+  }
+  
+  .description {
+    width: 550px;
+  }
+  
+  .lower {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    color: white;
+  }
+  
+  .left {
+    background-color: hsla(179, 61%, 44%, 1);
+    padding: 35px;
+  }
+  
+  .monthly {
+    margin-bottom: 10px;
+  
+  }
+  
+  .cash {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .button {
+    /* display: flex; */
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0 5px 5px black;
+  }
+  
+  .dollar {
+    font-size: 25px;
+  }
+  
+  button {
+    background-color: hsl(71, 73%, 54%);
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+  }
+  
+  .right {
+    background-color: #4ABEBD;
+    padding: 30px 40px;
+  }
+  
+  .right-description {
+    font-size: 14px;
+    margin: 10px 0;
+    line-height: 20px;
+    color: hsl(204, 43%, 93%);
+  }
+}
+
+@media (max-width: 737px) {
+  .container {
+    width: 85%;
+    height: 90%;
+    display: grid;
+    grid-template: 1fr 2fr / 1fr;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .upper {
+    padding: 30px;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: hsl(179, 62%, 43%);
+  }
+  
+  .subtitle {
+    margin-bottom: 15px;
+    color: hsl(71, 73%, 54%);
+  }
+  
+  .description {
+    line-height: 25px;
+  }
+  
+  .lower {
+    display: grid;
+    color: white;
+    grid-template: 1fr 1fr / 1fr;
+  }
+
+  .left {
+    background-color: hsla(179, 61%, 44%, 1);
+    padding: 10px 35px;
+  }
+  
+  .monthly {
+    margin-top: 15px;
+  
+  }
+  
+  .cash {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .button {
+    /* display: flex; */
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    box-shadow: 0 5px 5px black;
+  }
+  
+  .dollar {
+    font-size: 30px;
+  }
+  
+  button {
+    background-color: hsl(71, 73%, 54%);
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+  }
+
+  .right {
+    background-color: #4ABEBD;
+    padding: 25px 30px;
+  }
+  
+  .right-description {
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 23px;
+    color: hsl(204, 43%, 93%);
+  }
+}
+
+.gray {
+  color: hsl(217, 47%, 80%)
+}
+
+.bold {
+  font-weight: 700;
+}
