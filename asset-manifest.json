@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/SinglePriceGrid/static/css/main.f8f6cced.css",
+    "main.js": "/SinglePriceGrid/static/js/main.2beddabd.js",
+    "static/js/787.637df45b.chunk.js": "/SinglePriceGrid/static/js/787.637df45b.chunk.js",
+    "static/media/Karla-Regular.ttf": "/SinglePriceGrid/static/media/Karla-Regular.fa3a282cea1a68f3717d.ttf",
+    "static/media/logo.svg": "/SinglePriceGrid/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/SinglePriceGrid/index.html",
+    "main.f8f6cced.css.map": "/SinglePriceGrid/static/css/main.f8f6cced.css.map",
+    "main.2beddabd.js.map": "/SinglePriceGrid/static/js/main.2beddabd.js.map",
+    "787.637df45b.chunk.js.map": "/SinglePriceGrid/static/js/787.637df45b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8f6cced.css",
+    "static/js/main.2beddabd.js"
+  ]
+}
