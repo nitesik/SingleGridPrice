@@ -1,1 +1,1 @@
-https://nitesik.github.io/SinglePriceGrid
+https://nitesik.github.io/SingleGridPrice
